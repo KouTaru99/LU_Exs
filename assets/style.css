@@ -1,0 +1,509 @@
+@font-face {
+  font-family: SF Pro Display;
+  src: url("./fonts/SF-Pro-Display-Bold.otf");
+}
+
+@font-face {
+  font-family: SF Pro Text;
+  src: url("./fonts/SF-Pro-Display-Regular.otf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  width: 1920px;
+  height: 1244px;
+
+  background: linear-gradient(
+    292.77deg,
+    #0e1c26 0%,
+    #2a454b 52.6%,
+    #294861 100%
+  );
+
+  background: url("./img/bg1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  position: absolute;
+  width: 1920px;
+  height: 64px;
+  left: 0px;
+  top: 0px;
+  background: #000000;
+  opacity: 0.2;
+}
+.logo {
+  position: absolute;
+  width: 160px;
+  height: 28px;
+  left: 88px;
+  top: 18px;
+
+  background: url(.png);
+}
+
+.grip48 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 40px;
+  top: 20px;
+}
+
+.alarm-bell {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 1569px;
+  top: 22px;
+}
+
+.single {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 1615px;
+  top: 20px;
+}
+
+.text-01 {
+  position: absolute;
+  width: 205px;
+  height: 18px;
+  left: 1651px;
+  top: 25px;
+
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.text-02 {
+  position: absolute;
+  width: 145px;
+  height: 48px;
+  left: 40px;
+  top: 94px;
+
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.content-01 {
+  position: absolute;
+  width: 405px;
+  height: 1032px;
+  left: 40px;
+  top: 172px;
+}
+
+.rectangle {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #74b816;
+  opacity: 0.5;
+  border-radius: 12px 0px 0px 12px;
+}
+
+.text-rectangle-01 {
+  position: absolute;
+  left: 10.37%;
+  right: 57.04%;
+  top: 3.39%;
+  bottom: 84.98%;
+
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.text-rectangle-02 {
+  position: absolute;
+  left: 48.64%;
+  right: 38.77%;
+  top: 3.39%;
+  bottom: 84.98%;
+
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.text-rectangle-03 {
+  position: absolute;
+  left: 10.37%;
+  right: 59.26%;
+  top: 15.02%;
+  bottom: 73.35%;
+
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.text-rectangle-04 {
+  position: absolute;
+  left: 48.64%;
+  right: 19.01%;
+  top: 15.02%;
+  bottom: 73.35%;
+
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.icon-01 {
+  position: absolute;
+  left: 10.37%;
+  right: 84.69%;
+  top: 29.75%;
+  bottom: 68.31%;
+
+  opacity: 0.7;
+}
+
+.icon-02 {
+  position: absolute;
+  left: 23.21%;
+  right: 71.85%;
+  top: 29.75%;
+  bottom: 68.31%;
+
+  opacity: 0.7;
+}
+
+.icon-03 {
+  position: absolute;
+  left: 36.05%;
+  right: 59.01%;
+  top: 29.75%;
+  bottom: 68.31%;
+
+  opacity: 0.7;
+}
+
+.icon-04 {
+  position: absolute;
+  left: 48.89%;
+  right: 46.17%;
+  top: 29.75%;
+  bottom: 68.31%;
+
+  opacity: 0.7;
+}
+
+.icon-05 {
+  position: absolute;
+  left: 61.73%;
+  right: 33.33%;
+  top: 29.75%;
+  bottom: 68.31%;
+
+  opacity: 0.7;
+}
+
+.icons-rectangle:hover {
+  cursor: pointer;
+}
+
+.content-02 {
+  position: absolute;
+  width: 1435px;
+  height: 1032px;
+  left: 445px;
+  top: 172px;
+}
+
+.conten-02-rectangle {
+  position: absolute;
+  width: 1435px;
+  height: 1032px;
+  left: 0px;
+  top: 0px;
+  background: #212529;
+  opacity: 0.6;
+  border-radius: 0px 12px 12px 10px;
+}
+
+.text-content-02-01 {
+  position: absolute;
+  width: 99px;
+  height: 39px;
+  left: 40px;
+  top: 35px;
+
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 38px;
+  color: #ffffff;
+  opacity: 0.4;
+}
+
+.text-content-02-02 {
+  position: absolute;
+  width: 81px;
+  height: 48px;
+  left: 677px;
+  top: 30px;
+
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.text-content-02-03 {
+  position: absolute;
+  width: 203px;
+  height: 39px;
+  left: 1200px;
+  top: 35px;
+
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: right;
+  color: #ffffff;
+  opacity: 0.4;
+}
+
+.icon-content-02:hover {
+  cursor: pointer;
+}
+
+.icon-content-02-01 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 1270px;
+  top: 89px;
+}
+
+.icon-content-02-02 {
+  position: absolute;
+  left: 92.61%;
+  right: 5.85%;
+  top: 9.5%;
+  bottom: 88.37%;
+}
+
+.icon-content-02-03 {
+  position: absolute;
+  left: 95.68%;
+  right: 2.79%;
+  top: 9.5%;
+  bottom: 88.37%;
+}
+
+.main-content-02-01 {
+  position: absolute;
+  width: 327px;
+  height: 215px;
+  left: 40px;
+  top: 172px;
+}
+
+.main-content-02-02 {
+    position: absolute;
+  width: 327px;
+  height: 215px;
+  left: 383px;
+  top: 172px;
+}
+
+.main-content-02-03 {
+    position: absolute;
+    width: 327px;
+    height: 215px;
+    left: 726px;
+    top: 172px;
+}
+
+.main-content-02-04 {
+    position: absolute;
+    width: 327px;
+    height: 215px;
+    left: 1069px;
+    top: 172px;
+}
+
+.rmc-02-01 {
+  position: absolute;
+  width: 327px;
+  height: 215px;
+  left: 0px;
+  top: 0px;
+  background: #343a40;
+  opacity: 0.6;
+  border-radius: 6px;
+}
+
+.arrow-ct-02-01 {
+  position: absolute;
+  width: 154.64px;
+  height: 40px;
+  left: -1px;
+  top: 18px;
+}
+
+.t1 {
+  position: absolute;
+  left: 14.98%;
+  right: 59.94%;
+  top: 46.51%;
+  bottom: 45.12%;
+
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #ffffff;
+
+  opacity: 0.6;
+}
+.t2 {
+  position: absolute;
+  left: 14.98%;
+  right: 59.94%;
+  top: 67.44%;
+  bottom: 24.19%;
+
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #ffffff;
+
+  opacity: 0.6;
+}
+.t3 {
+  position: absolute;
+  left: 62.69%;
+  right: 17.74%;
+  top: 46.51%;
+  bottom: 45.12%;
+
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+  text-align: center;
+
+  color: #ffffff;
+
+  opacity: 0.6;
+}
+
+.t4 {
+  position: absolute;
+  left: 62.69%;
+  right: 31.19%;
+  top: 67.44%;
+  bottom: 24.19%;
+
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #ffffff;
+
+  opacity: 0.6;
+}
+
+.i1 {
+  position: absolute;
+  left: 5.2%;
+  right: 88.69%;
+  top: 45.12%;
+  bottom: 45.58%;
+
+  opacity: 0.6;
+}
+.i2 {
+  position: absolute;
+  left: 5.5%;
+  right: 88.38%;
+  top: 66.98%;
+  bottom: 23.72%;
+
+  opacity: 0.6;
+}
+
+.i3 {
+  position: absolute;
+  left: 52.91%;
+  right: 40.98%;
+  top: 45.12%;
+  bottom: 45.58%;
+
+  opacity: 0.6;
+}
+.i4 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 173px;
+  top: 144px;
+
+  opacity: 0.6;
+}
+
+.tcmc:hover, .text-01:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.icmc:hover,
+.logo:hover,
+.grip48:hover,
+.alarm-bell:hover,
+.single:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
+
